@@ -2,17 +2,13 @@ FROM python:3.9
 
 WORKDIR /code
 
-COPY ./requirements.txt /code/requirements.txt
+COPY . /code
 
 RUN pip install --no-cache-dir -r /code/requirements.txt
 
-COPY ./Cadernos /code/Cadernos
-COPY ["./Dados tratados/geracao e tempo - umburanas-ba.csv", "/code/Dados tratados/geracao e tempo - umburanas-ba.csv"]
+EXPOSE 8888
 
-ARG FILE_NAME=modelos_1-4.py
-
-CMD ["sh", "-c", "python Cadernos/$FILE_NAME"]
+CMD ["jupyter", "notebook", "--ip='*'", "--port=8888", "--no-browser", "--allow-root"]
 
 # docker build -t imagem .
-# docker run -e FILE_NAME=modelos_1-4.py imagem
-# docker run -e FILE_NAME=modelos_5-8.py imagem
+# docker run -p 8888:8888 -v "$(pwd)/Cadernos:/code/Cadernos" -v "$(pwd)/Dados tratados:/code/Dados tratados" imagem
