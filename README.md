@@ -14,7 +14,7 @@ Para visualizar os resultados das rotinas já executadas, abra os cadernos _Jupy
 
 ### Execução dos modelos preditivos (_Docker_)
 
-Para executar as rotinas de treinamento dos modelos preditivos em uma ambiente isolado usando o _Docker_:
+Para executar as rotinas de treinamento dos modelos preditivos em um ambiente isolado usando o _Docker_:
 1. Faça o _download_ da pasta **_Docker_**
 2. Acesse a pasta _Docker_ na janela de comando ou no _PowerShell_
 3. Monte a imagem _Docker_ com o seguinte comando:
