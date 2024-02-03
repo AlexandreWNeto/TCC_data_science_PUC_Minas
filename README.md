@@ -4,7 +4,7 @@ Trabalho de conclusão do curso de Ciência de Dados e Big Data da PUC Minas.
 
 Para visualizar os resultados das rotinas já executadas, abra os cadernos _Jupyter_ na pasta **Cadernos**.
 
-### Execução do código (_Docker_)
+### Execução das rotinas de previsão (modelos preditivos 1 a 8)
 
 Para executar as rotinas de treinamento dos modelos preditivos:
 - Faça o _download_ da pasta **_Docker_**
@@ -24,3 +24,6 @@ docker run -e FILE_NAME=modelos_5-8.py imagem
 Observação: o _Docker Desktop_ precisa estar instalado no seu computador para a execução dos comandos acima.
 
 Para instruções sobre como instalar o _Docker Desktop_, visite: https://docs.docker.com/get-docker .
+
+Nota: somente as rotinas de previsão da geração de energia foram incluídas no contêiner _Docker_.
+As rotinas de preparação e visualização de dados não foram incluídas porque os dados de entrada não foram carregados neste repositório devido a restrições de armazenamento do _GitHub_.
