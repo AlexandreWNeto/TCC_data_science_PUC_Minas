@@ -29,6 +29,7 @@ docker run -p 8888:8888 -v "$(pwd)/Cadernos:/code/Cadernos" -v "$(pwd)/Dados tra
 7. Clique nos arquivos _models_1-4_ ou _models_5-8_ para acessar as rotinas preditivas.
 8. Para executar uma seção do código, clique no botão _Run_.
 
+
 Observações:
 - O_Docker Desktop_ precisa estar instalado no seu computador para a execução dos comandos acima.
   - Para instruções sobre como instalar o _Docker Desktop_, visite: https://docs.docker.com/get-docker
