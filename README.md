@@ -6,6 +6,8 @@ Uma análise aplicada ao Conjunto Eólico Umburanas – Bahia, Brasil
 
 Autor: Alexandre Willik Neto
 
+![image](https://github.com/AlexandreWNeto/TCC_data_science_PUC_Minas/assets/29670261/aca0c3bc-5a00-4fe3-a29c-665c6f7d3d52)
+
 ### Visualização dos resultados
 
 Para visualizar os resultados das rotinas já executadas, abra os cadernos _Jupyter_ na pasta **Cadernos**.
