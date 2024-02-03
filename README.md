@@ -13,14 +13,12 @@ Para executar as rotinas de treinamento dos modelos preditivos:
 ```
 docker build -t imagem .
 ```
-- Após a montagem da imagem _Docker_, execute os modelos no contêiner com os seguintes comandos:
+- Após a montagem da imagem _Docker_, execute o ambiente isolado do contêiner _docker_ com o seguinte comando:
 ```
-docker run -e FILE_NAME=modelos_1-4.py imagem
+docker run -p 8888:8888 -v "$(pwd)/Cadernos:/code/Cadernos" -v "$(pwd)/Dados tratados:/code/Dados tratados" imagem
 ```
-ou
-```
-docker run -e FILE_NAME=modelos_5-8.py imagem
-```
+- 
+
 Observação: o _Docker Desktop_ precisa estar instalado no seu computador para a execução dos comandos acima.
 
 Para instruções sobre como instalar o _Docker Desktop_, visite: https://docs.docker.com/get-docker .
