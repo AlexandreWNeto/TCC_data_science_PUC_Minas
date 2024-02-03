@@ -26,4 +26,4 @@ Observação: o _Docker Desktop_ precisa estar instalado no seu computador para 
 Para instruções sobre como instalar o _Docker Desktop_, visite: https://docs.docker.com/get-docker .
 
 Nota: somente as rotinas de previsão da geração de energia foram incluídas no contêiner _Docker_.
-As rotinas de preparação e visualização de dados não foram incluídas porque os dados de entrada não foram carregados neste repositório devido a restrições de armazenamento do _GitHub_.
+As rotinas de preparação e visualização de dados não foram incluídas porque os dados de entrada não foram carregados neste repositório.
