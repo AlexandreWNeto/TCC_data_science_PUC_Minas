@@ -30,10 +30,11 @@ As rotinas de preparação e visualização de dados não foram incluídas porqu
 
 
 ### Organização dos arquivos
-- Cadernos: contém os cadernos _Jupyter_ com as rotinas escritas neste trabalho.
-- Dados brutos: contém os conjuntos de dados utilizados neste trabalho. IMPORTANTE: conjuntos de dados maiores que 25 Mb não foram carregados neste repositório.
-- Dados tratados: contém os conjuntos de dados tratados, resultantes da etapa de tratamento e agregação de dados.
-- Docker: contém os arquivos a serem armazenados em um contêiner _Docker_ caso se queira executar os modelos preditivos em um contêiner isolado. Também contém as instruções para a construção da imagem _docker_ (_Dockerfile_) e as bibliotecas _Python_ necessárias (_requirements.txt_).
+- **Cadernos**: contém os cadernos _Jupyter_ com as rotinas escritas neste trabalho.
+- **Dados brutos**: contém os conjuntos de dados utilizados neste trabalho.
+-   IMPORTANTE: conjuntos de dados maiores que 25 Mb não foram carregados neste repositório.
+- **Dados tratado**s: contém os conjuntos de dados tratados, resultantes da etapa de tratamento e agregação de dados.
+- **Docker**: contém os arquivos a serem armazenados em um contêiner _Docker_ caso se queira executar os modelos preditivos em um contêiner isolado. Também contém as instruções para a construção da imagem _docker_ (_Dockerfile_) e as bibliotecas _Python_ necessárias (_requirements.txt_).
 
 
 
