@@ -7,17 +7,17 @@ Para visualizar os resultados das rotinas já executadas, abra os cadernos _Jupy
 ### Execução dos modelos preditivos (_Docker_)
 
 Para executar as rotinas de treinamento dos modelos preditivos em uma ambiente isolado usando o _Docker_:
-- Faça o _download_ da pasta **_Docker_**
-- Acesse a pasta _Docker_ na janela de comando ou no _PowerShell_
-- Monte a imagem _Docker_ com o seguinte comando:
+1. Faça o _download_ da pasta **_Docker_**
+2. Acesse a pasta _Docker_ na janela de comando ou no _PowerShell_
+3. Monte a imagem _Docker_ com o seguinte comando:
 ```
 docker build -t imagem .
 ```
-- Após a montagem da imagem _Docker_, execute o ambiente isolado do contêiner _docker_ com o seguinte comando:
+4. Após a montagem da imagem _Docker_, execute o ambiente isolado do contêiner _docker_ com o seguinte comando:
 ```
 docker run -p 8888:8888 -v "$(pwd)/Cadernos:/code/Cadernos" -v "$(pwd)/Dados tratados:/code/Dados tratados" imagem
 ```
-- Copie a URL mostrada no _prompt_ de comando no seu navegador para acessar o ambiente _Jupyter_. A URL terá o seguinte formato:
+5. Copie a URL mostrada no _prompt_ de comando no seu navegador para acessar o ambiente _Jupyter_. A URL terá o seguinte formato:
 ```
  To access the server, open this file in a browser:
         file:///root/.local/share/jupyter/runtime/jpserver-1-open.html
@@ -25,9 +25,9 @@ docker run -p 8888:8888 -v "$(pwd)/Cadernos:/code/Cadernos" -v "$(pwd)/Dados tra
         http://localhost:8888/tree?token=<sequencia_de_caracteres>
         http://127.0.0.1:8888/tree?token=<sequencia_de_caracteres>
 ```
-- No ambiente _Jupyter_, acesse a pasta Cadernos.
-- Clique nos arquivos _models_1-4_ ou _models_5-8_ para acessar as rotinas preditivas.
-- Para executar uma seção do código, clique no botão _Run_.
+6. No ambiente _Jupyter_, acesse a pasta Cadernos.
+7. Clique nos arquivos _models_1-4_ ou _models_5-8_ para acessar as rotinas preditivas.
+8. Para executar uma seção do código, clique no botão _Run_.
 
 Observações:
 - O_Docker Desktop_ precisa estar instalado no seu computador para a execução dos comandos acima.
