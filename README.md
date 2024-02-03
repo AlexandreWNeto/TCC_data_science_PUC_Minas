@@ -22,8 +22,8 @@ docker run -p 8888:8888 -v "$(pwd)/Cadernos:/code/Cadernos" -v "$(pwd)/Dados tra
  To access the server, open this file in a browser:
         file:///root/.local/share/jupyter/runtime/jpserver-1-open.html
     Or copy and paste one of these URLs:
-        **http://localhost:8888/tree?token=<sequencia_de_caracteres>**
-        **http://127.0.0.1:8888/tree?token=<sequencia_de_caracteres>**
+        http://localhost:8888/tree?token=<sequencia_de_caracteres>
+        http://127.0.0.1:8888/tree?token=<sequencia_de_caracteres>
 ```
 - No ambiente _Jupyter_, acesse a pasta Cadernos.
 - Clique nos arquivos _models_1-4_ ou _models_5-8_ para acessar as rotinas preditivas.
