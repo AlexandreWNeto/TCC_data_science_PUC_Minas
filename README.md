@@ -4,7 +4,7 @@ Trabalho de conclusão do curso de Ciência de Dados e Big Data da PUC Minas.
 
 Para visualizar os resultados das rotinas já executadas, abra os cadernos _Jupyter_ na pasta **Cadernos**.
 
-### Execução das rotinas de previsão (modelos preditivos 1 a 8)
+### Execução dos modelos preditivos (_Docker_)
 
 Para executar as rotinas de treinamento dos modelos preditivos:
 - Faça o _download_ da pasta **_Docker_**
