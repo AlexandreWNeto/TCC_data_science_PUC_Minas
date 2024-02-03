@@ -1,4 +1,9 @@
-Trabalho de conclusão do curso de Ciência de Dados e Big Data da PUC Minas.
+Repositório de códigos do Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciência de Dados e Big Data como requisito parcial à obtenção do título de especialista.
+
+PREVISÃO DA GERAÇÃO DE ENERGIA EÓLICA COM MODELOS DE APRENDIZAGEM DE MÁQUINA
+Uma análise aplicada ao Conjunto Eólico Umburanas – Bahia, Brasil
+
+Autor: Alexandre Willik Neto
 
 ### Visualização dos resultados
 
